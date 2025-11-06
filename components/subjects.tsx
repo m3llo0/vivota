@@ -1,7 +1,7 @@
 export default function SubjectsSection() {
 
     return (
-        <div className="max-w-7xl mx-auto my-16 md:my-24 lg:my-32">
+        <div className="max-w-7xl mx-auto my-16 md:my-24 lg:my-48">
             <h1 className="text-4xl font-bold text-white text-center mb-8">Our JC Courses</h1>
             <h2 className="text-xl text-white text-center">Vivota specialises in delivering quality education tailored for Junior College students.</h2>
             <h2 className="text-xl text-white text-center mb-12">Explore the 5 subjects taught in-depth by our Content Experts!</h2>

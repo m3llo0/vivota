@@ -12,7 +12,7 @@ export default function IntroSection() {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto my-16 md:my-24 lg:my-32">
+        <div className="max-w-7xl mx-auto mb-16 md:mb-24 lg:mb-48">
             <h1 className="text-xl md:text-4xl text-center font-bold mb-12">Meet our Vivota Content Experts</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
                 {tutors.map((tutor) => (

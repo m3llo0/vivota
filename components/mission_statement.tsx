@@ -1,6 +1,6 @@
 export default function MissionStatement() {
     return (
-        <div className="max-w-7xl mx-auto my-16 md:my-24 lg:my-32">
+        <div className="max-w-7xl min-h-screen mx-auto">
             <h1 className="text-4xl font-bold text-center my-8">Vivota's Core Mission</h1>
             <p className="text-base md:text-lg my-8">
                 Vivota exists because students deserve more than just syllabus coverage. As both doctors and educational specialists,
