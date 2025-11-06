@@ -39,8 +39,9 @@ export default function Carousel() {
                     style={{ transform: `translateX(-${current * 100}%)` }}
                 >
                     {slides.map((slide) => (
-                        <div key={slide.id} className="flex-shrink-0 w-full min-h-[24rem]">
-                            <div className="flex flex-col justify-center items-center h-full rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 text-white">
+                        <div key={slide.id} className="flex-shrink-0 w-full">
+                            <div className="flex flex-col justify-center items-center h-full rounded-lg 
+                            shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 text-white">
                                 <img src={slide.img} className="w-32 h-32" alt={slide.title} />
                                 <h1 className="text-3xl font-bold mt-4">{slide.title}</h1>
                             </div>
@@ -57,7 +58,7 @@ export default function Carousel() {
                 rounded-full
                 bg-white/20 backdrop-blur-md border border-white/30
                 text-white text-xl font-bold
-                shadow-lg hover:bg-white/30 hover:border-white/50 transition"
+                shadow-lg hover:bg-white/30 hover:border-white/50 transition cursor-pointer"
             >
                 ❮
             </button>
@@ -68,18 +69,18 @@ export default function Carousel() {
                 rounded-full
                 bg-white/20 backdrop-blur-md border border-white/30
                 text-white text-xl font-bold
-                shadow-lg hover:bg-white/30 hover:border-white/50 transition"
+                shadow-lg hover:bg-white/30 hover:border-white/50 transition cursor-pointer"
             >
                 ❯
             </button>
 
             {/* Indicators */}
-            <div className="flex justify-center mt-6 gap-2">
+            <div className="flex justify-center mt-8 gap-2">
                 {slides.map((_, index) => (
                     <button
                         key={index}
                         onClick={() => setCurrent(index)}
-                        className={`w-3 h-3 rounded-full ${index === current ? "bg-white" : "bg-gray-400"
+                        className={`w-3 h-3 rounded-full cursor-pointer ${index === current ? "bg-white" : "bg-gray-400"
                             }`}
                     />
                 ))}
