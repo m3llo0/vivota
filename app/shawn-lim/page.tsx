@@ -17,9 +17,9 @@ export default function TutorProfile() {
         I love guiding each student — whether adolescent or young adult — towards discovering their strengths, building confidence,
         and preparing for university and beyond.`,
         at_vivota: `At Vivota, my goal isn’t just academic improvement — it’s helping students find their ikigai and 
-        fully appreciate the journey of learning. For students interested in pursuing surgery, 
-        I also run unique hands-on sessions, like bovine heart workshops — so reach out to me if 
-        you’d like to partake in this once-in-a-lifetime learning experience!`,
+        fully appreciate the journey of learning. I'm also excited to share my experiences, especially in medicine and guide them 
+        fully in their educational journey even after the A Levels — so reach out to me if 
+        you’d like to join me in this once-in-a-lifetime learning experience!`,
         img: "/test.jpg"
     }
 

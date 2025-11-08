@@ -18,7 +18,7 @@ export default function MissionStatement() {
             <div className="text-center">
                 <Link href="/vivota-oath">
                     <button className="btn text-base md:text-lg md:p-6 bg-[#e6bb10] 
-                    text-black hover:bg-[#f7cd25] hover:scale-105 transition-transform duration-300">
+                    text-black hover:bg-[#f7cd25] hover:shadow-lg hover:scale-105 transition-all transform ">
                         Find out More
                     </button>
                 </Link>

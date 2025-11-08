@@ -17,9 +17,12 @@ export default function TutorProfile() {
         bio: `I’ve always enjoyed that moment when something complex finally makes sense,
          when all the ideas connect clearly. That’s what sparked my passion for teaching. 
          I love to break down challenging concepts and explain them in a way that feels intuitive and easy to grasp, 
-         helping students to see that once it clicks, it’s really not that hard at all!
-`,
-        at_vivota: `???????????????????????????????????????????????????????????????????????????????????????????????????`,
+         helping students to see that it’s really not rocket science!`,
+
+        at_vivota: `At Vivota, I aim to recreate that feeling for every student: making learning feel intuitive rather than intimidating. 
+        For me, teaching isn’t just about covering content, it’s about building up my students' confidence, reduce their stress
+        and make their lives more positive as a whole. `,
+
         img: "/test.jpg"
     }
 

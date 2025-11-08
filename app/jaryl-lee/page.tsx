@@ -7,19 +7,18 @@ export default function TutorProfile() {
         subjects: "Math (Lead CE) & Physics",
         highlights: [
             "NTU Lee Kong Chian School of Medicine",
-            "OCBC Scholarship (Medicine)",
-            "Offered Direct Bachelor + Masters Programme by NTU with full scholarship",
             "90RP AAAA/AA score, PCME for GCE A Levels",
-            "H3 Physics, Eunoia Junior College",
-            "Dean’s List, Eunoia Junior College",
-            "Integrated Programme (IP), Catholic High School"
+            "H3 Math & Raffles Academy (Mathematics)",
+            "Raffles All-Round Excellence Award",
+            "Gifted Education Programme (GEP)"
         ],
-        bio: `I’ve always enjoyed that moment when something complex finally makes sense,
-         when all the ideas connect clearly. That’s what sparked my passion for teaching. 
-         I love to break down challenging concepts and explain them in a way that feels intuitive and easy to grasp, 
-         helping students to see that once it clicks, it’s really not that hard at all!
-`,
-        at_vivota: `???????????????????????????????????????????????????????????????????????????????????????????????????`,
+        bio: `Hey everyone, I’m Jaryl! Like you, I grew up in Singapore’s educational system, scored 90 RP at A-Levels, and now study Medicine at NTU LKC. 
+        However, I was also in your position once, and I know what it feels like to be stuck, anxious, and pressed for time... but don't fret!
+        I'm here to help make the best of your current situation and strive to improve not just your academics but your well-being too. `,
+
+        at_vivota: `At Vivota, there are no magic formulas or shortcuts to overhaul your grades overnight. However, with my
+        consistent guidance backed by a robust system, I'm fully confident that you too can shine bright and overcome any
+        difficulties that previously plagued you!`,
         img: "/test.jpg"
     }
 
