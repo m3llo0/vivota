@@ -1,3 +1,5 @@
+import PricingTable from "@/components/pricing_table";
+
 export default function PlansPricing() {
     return (
         <div className="max-w-7xl mx-auto my-16 md:my-24 lg:my-32">
@@ -11,7 +13,7 @@ export default function PlansPricing() {
                         <div className="card-body flex flex-col h-full">
                             <div className="flex flex-col gap-2">
                                 <h2 className="text-3xl font-bold">Diagnostic</h2>
-                                <h3 className="text-xl">$120 (1x trial session, 2 hours)</h3>
+                                <h3 className="text-xl">$100 (1 trial session, 2 hours)</h3>
                             </div>
                             <ul className="mt-6 flex flex-col gap-2 text-sm">
                                 <li>
@@ -24,7 +26,7 @@ export default function PlansPricing() {
                                 </li>
                             </ul>
                             <div className="mt-auto">
-                                <button className="btn btn-primary btn-block">Select</button>
+                                <button className="btn btn-warning btn-block">Enrol Now</button>
                             </div>
                         </div>
                     </div>
@@ -33,7 +35,11 @@ export default function PlansPricing() {
                         <div className="card-body flex flex-col h-full">
                             <div className="flex flex-col gap-2">
                                 <h2 className="text-3xl font-bold">Rotation</h2>
-                                <h3 className="text-xl">$440 (4x sessions, 2 hours)</h3>
+                                <h3 className="text-xl">
+                                    <span className="line-through text-gray-400 mr-2">$500</span>
+                                    <span className="text-orange-500 font-semibold">$440</span>
+                                    <span> (4 sessions x 2 hours)</span>
+                                </h3>
                             </div>
                             <ul className="mt-6 flex flex-col gap-2 text-sm">
                                 <li>
@@ -50,7 +56,7 @@ export default function PlansPricing() {
                                 </li>
                             </ul>
                             <div className="mt-auto">
-                                <button className="btn btn-primary btn-block">Select</button>
+                                <button className="btn btn-warning btn-block">Enrol Now</button>
                             </div>
                         </div>
                     </div>
@@ -61,7 +67,11 @@ export default function PlansPricing() {
                                 <h2>Regimen</h2>
                                 <img src="flame.svg" className="w-4 h-4" />
                             </div>
-                            <h3 className="text-xl">$1100 (12x sessions, 2 hours)</h3>
+                            <h3 className="text-xl">
+                                <span className="line-through text-gray-400 mr-2">$1200</span>
+                                <span className="text-orange-500 font-semibold">$1100</span>
+                                <span> (12 sessions x 2 hours)</span>
+                            </h3>
                             <ul className="mt-6 flex flex-col gap-2 text-sm">
                                 <li>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -85,7 +95,7 @@ export default function PlansPricing() {
                                 </li>
                             </ul>
                             <div className="mt-auto">
-                                <button className="btn btn-primary btn-block">Select</button>
+                                <button className="btn btn-warning btn-block">Enrol Now</button>
                             </div>
                         </div>
                     </div>
@@ -94,10 +104,11 @@ export default function PlansPricing() {
 
             </div>
 
-            <h1 className="text-xl md:text-4xl text-center font-bold mb-8">Need help with multiple subjects?</h1>
-            <h2 className="text-lg text-white text-center mb-32">Get more for greater value!</h2>
-
-
+            <div>
+                <h1 className="text-xl md:text-4xl text-center font-bold mb-8">Need help with multiple subjects?</h1>
+                <h2 className="text-lg text-white text-center mb-8">Get more for greater value!</h2>
+                <PricingTable />
+            </div>
         </div>
     )
 }   
