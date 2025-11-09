@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function MissionStatement() {
     return (
-        <div className="max-w-3xl md:max-w-4xl lg:max-w-5xl 2xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
-        mb-48 lg:mb-64 2xl:mb-72 flex flex-col items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
+        py-8 sm:py-16 md:py-24 lg:py-32 xl:py-40 2xl:py-48 flex flex-col items-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center my-4 sm:my-6">
                 Vivota's Core Mission
             </h1>

@@ -12,7 +12,8 @@ export default function IntroSection() {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 mb-72">
+        <div className="sm:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4 sm:px-8 md:px-12
+        py-8 sm:py-16 md:py-24 lg:py-32 xl:py-40 2xl:py-48">
             <h1 className="text-2xl sm:text-3xl md:text-4xl text-center font-bold mb-8 sm:mb-12 md:mb-14 xl:mb-20 2xl:mb-24">
                 <span className="block sm:inline">Meet our Vivota </span>
                 <span className="block sm:inline">Content Experts</span>
