@@ -9,7 +9,7 @@ export default function HeroSection() {
                         <span className="block 2xl:inline">VIVOTA{" "}</span>
                         <span className="block 2xl:inline">EDUCATION</span>
                     </p>
-                    <span className="mt-4 text-2xl md:text-3xl xl:text-4xl text-gray-300 font-medium tracking-wide">
+                    <span className="mt-4 text-xl sm:text-2xl md:text-3xl xl:text-4xl text-gray-300 font-medium tracking-wide">
                         <span className="block 2xl:inline">
                             Venture Today,
                         </span>{" "}
