@@ -40,11 +40,11 @@ export default function MobileNavbar({ navbarItems }: Props) {
                 href="/"
                 onClick={() => setIsOpen(false)}
             >
-                <img src="/logo.png" alt="Logo" className="w-24 h-auto cursor-pointer" />
+                <img src="/logo.png" alt="Logo" className="w-24 h-auto ml-2 md:ml-4 cursor-pointer" />
             </Link>
 
             <button
-                className="text-yellow-500  md:hidden focus:outline-none"
+                className="text-yellow-500 lg:hidden mr-2 md:mr-4 focus:outline-none"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <svg
@@ -66,7 +66,7 @@ export default function MobileNavbar({ navbarItems }: Props) {
             transition-all duration-300 
             overflow-hidden ${isOpen ? "max-h-screen" : "max-h-0"}`}
             >
-                <ul className="flex flex-col gap-2 p-4 ml-2 mb-2">
+                <ul className="flex flex-col gap-2 p-4 ml-2 md:ml-4 mb-2">
                     {navbarItems.map((item) => {
                         const hasDropdown = item.dropdown && item.dropdown.length > 0;
                         return (

@@ -36,11 +36,13 @@ export default function DesktopNavbar({ navbarItems }: Props) {
 
     return (
         <div className="h-20 bg-white fixed top-0 left-0 w-full flex items-center z-50 shadow-md px-8">
-            <Link href="/" className="justify-start">
-                <img src="/logo.png" alt="Logo" className="w-24 h-auto ml-32 cursor-pointer" />
+            {/* Logo on the left */}
+            <Link href="/" className="flex-shrink-0 lg:ml-4 xl:ml-32 2xl:ml-48">
+                <img src="/logo.png" alt="Logo" className="w-24 h-auto cursor-pointer" />
             </Link>
 
-            <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-12">
+            {/* Nav items always centered */}
+            <div className="absolute left-1/2 top-0 h-full flex items-center gap-12 transform -translate-x-1/2 whitespace-nowrap">
                 {navbarItems.map((item) => {
                     const hasDropdown = item.dropdown && item.dropdown.length > 0;
                     return (
@@ -55,7 +57,7 @@ export default function DesktopNavbar({ navbarItems }: Props) {
                                         onClick={() =>
                                             setOpenDropdown(openDropdown === item.label ? null : item.label)
                                         }
-                                        className="relative text-sm md:text-base font-semibold text-black/70 hover:text-black"
+                                        className="text-sm md:text-base font-semibold text-black/70 hover:text-black"
                                     >
                                         {item.label}
                                     </button>
