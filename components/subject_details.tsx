@@ -109,7 +109,8 @@ export default function SubjectDetails({ subject, keyFeatures, topics, methods }
                                 <div
                                     key={idx}
                                     className="p-4 bg-gradient-to-br from-blue-400 to-indigo-400 text-gray-900 rounded-lg 
-                                    text-center font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+                                    text-center font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105
+                                    flex items-center justify-center"
                                 >
                                     {method}
                                 </div>
@@ -120,7 +121,7 @@ export default function SubjectDetails({ subject, keyFeatures, topics, methods }
             </div>
 
             {/* Detailed Description */}
-            <div className="bg-gradient-to-r from-yellow-100 via-amber-200 to-orange-300 text-white p-16 rounded-lg my-16">
+            <div className="bg-gradient-to-r from-yellow-100 via-amber-200 to-orange-300 text-white px-4 py-12 sm:p-12 md:p-16 rounded-lg my-16">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl font-bold mb-8 text-black text-center">The Vivota Difference</h2>
