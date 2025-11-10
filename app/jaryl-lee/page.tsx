@@ -6,7 +6,6 @@ export default function TutorProfile() {
         name: "Jaryl Lee",
         subjects: "Math (Lead CE) & Physics",
         highlights: [
-            "NTU Lee Kong Chian School of Medicine",
             "90RP AAAA/AA score, PCME for GCE A Levels",
             "H3 Math & Raffles Academy (Mathematics)",
             "Raffles All-Round Excellence Award",

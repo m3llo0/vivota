@@ -6,7 +6,7 @@ export default function TutorProfile() {
         name: "Kaiser Tan",
         subjects: "Biology (Lead CE) & Chemistry",
         highlights: [
-            "NTU Lee Kong Chian School of Medicine",
+            "NUS Yong Loo Lin School of Medicine",
             "SAF Young Leaders Award",
             "Straight As for Bio, Chem and Math",
             "Dean’s List, Eunoia Junior College",

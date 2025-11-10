@@ -6,9 +6,8 @@ export default function TutorProfile() {
         name: "Tenor Ong",
         subjects: "Physics & General Paper (Dual Lead CE)",
         highlights: [
-            "NTU Lee Kong Chian School of Medicine",
             "OCBC Scholarship (Medicine)",
-            "Offered Direct Bachelor + Masters Programme by NTU with full scholarship",
+            "Offered Direct Bachelor + Masters Programme with full scholarship",
             "90RP AAAA/AA score, PCME for GCE A Levels",
             "H3 Physics, Eunoia Junior College",
             "Dean’s List, Eunoia Junior College",
@@ -23,7 +22,7 @@ export default function TutorProfile() {
         For me, teaching isn’t just about covering content, it’s about building up my students' confidence, reduce their stress
         and make their lives more positive as a whole. `,
 
-        img: "/test.jpg"
+        img: "tenor.png"
     }
 
     return (

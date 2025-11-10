@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function IntroSection() {
 
     const tutors = [
-        { name: "Shawn Lim", subjects: "Chemistry, Biology", img: "test_pic.jpg", link: "/shawn-lim" },
-        { name: "Tenor Ong", subjects: "Physics, General Paper", img: "test_pic.jpg", link: "/tenor-ong" },
+        { name: "Shawn Lim", subjects: "Chemistry, Biology", img: "shawn.png", link: "/shawn-lim" },
+        { name: "Tenor Ong", subjects: "Physics, General Paper", img: "tenor.png", link: "/tenor-ong" },
         { name: "Jaryl Lee", subjects: "Math, Physics", img: "test_pic.jpg", link: "/jaryl-lee" },
         { name: "Kaiser Tan", subjects: "Biology, Chemistry", img: "test_pic.jpg", link: "/kaiser-tan" },
 
@@ -31,10 +31,10 @@ export default function IntroSection() {
                                 className="w-full h-full object-cover"
                             />
 
-                            <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-blue-200/90 to-transparent flex items-end p-4">
-                                <div className="text-gray-900 md:p-2 lg:p-4 xl:p-0 2xl:p-2">
-                                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-lg font-bold">{tutor.name}</h3>
-                                    <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-sm">{tutor.subjects}</p>
+                            <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-yellow-200/90 to-transparent flex items-end p-4">
+                                <div className="text-black md:p-2 lg:p-4 xl:p-0 2xl:p-2">
+                                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-lg 2xl:text-xl font-black">{tutor.name}</h3>
+                                    <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-sm font-medium">{tutor.subjects}</p>
                                 </div>
                             </div>
 

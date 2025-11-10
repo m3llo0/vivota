@@ -6,7 +6,6 @@ export default function TutorProfile() {
         name: "Shawn Lim",
         subjects: "Chemistry (Lead CE) & Biology",
         highlights: [
-            "NTU Lee Kong Chian School of Medicine",
             "90RP AAAA/AA score, BCMH for GCE A Levels",
             "Offered Double Degree & Scholarship by SMU",
             "Dean’s List, Eunoia Junior College",
@@ -20,7 +19,7 @@ export default function TutorProfile() {
         fully appreciate the journey of learning. I'm also excited to share my experiences, especially in medicine and guide them 
         fully in their educational journey even after the A Levels — so reach out to me if 
         you’d like to join me in this once-in-a-lifetime learning experience!`,
-        img: "/test.jpg"
+        img: "shawn.png"
     }
 
     return (

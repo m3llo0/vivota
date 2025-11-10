@@ -72,6 +72,9 @@ export default function DesktopNavbar({ navbarItems }: Props) {
                                                 key={link.label}
                                                 href={link.href}
                                                 className="block px-3 py-2 hover:text-black"
+                                                onClick={() =>
+                                                    setOpenDropdown(openDropdown === item.label ? null : item.label)
+                                                }
                                             >
                                                 {link.label}
                                             </Link>
