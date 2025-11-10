@@ -24,7 +24,7 @@ export default function HeroSection() {
                         </p>
 
                         {/* Top-right cell */}
-                        <div className="flex flex-col items-center md:items-start gap-2 md:gap-1 text-center md:text-left mt-8 md:mt-2">
+                        <div className="flex flex-col items-center md:items-start gap-2 md:gap-1 text-center md:text-left mt-8 md:mt-2 font-medium">
                             <div className="flex items-start gap-2">
                                 <MapPin className="w-4 h-4 text-white flex-shrink-0" />
                                 <p className="text-sm md:text-base font-medium text-white whitespace-nowrap">
@@ -62,7 +62,7 @@ export default function HeroSection() {
                         </p>
 
                         {/* Contact Info */}
-                        <div className="flex flex-col items-start gap-2">
+                        <div className="flex flex-col items-start gap-2 font-medium">
                             <div className="flex items-start gap-2">
                                 <MapPin className="w-4 h-4 text-white flex-shrink-0" />
                                 <p className="text-base font-medium text-white whitespace-nowrap">
