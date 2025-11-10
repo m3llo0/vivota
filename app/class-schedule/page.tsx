@@ -63,7 +63,7 @@ export default function SchedulePage() {
                                     {lessons.map((lesson, idx) => (
                                         <div
                                             key={idx}
-                                            className={`p-4 rounded-lg border-2 transition-all hover:shadow-md ${subjectColors[lesson.subject_short]}
+                                            className={`p-4 rounded-lg border-2 transition-all hover:shadow-md ${subjectColors[lesson.subject_short as keyof typeof subjectColors]}
                                                 }`}
                                         >
                                             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
