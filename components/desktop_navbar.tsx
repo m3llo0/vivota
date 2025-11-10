@@ -38,7 +38,7 @@ export default function DesktopNavbar({ navbarItems }: Props) {
         <div className="h-20 bg-white fixed top-0 left-0 w-full flex items-center z-50 shadow-md px-8">
             {/* Logo on the left */}
             <Link href="/" className="flex-shrink-0 lg:ml-4 xl:ml-32 2xl:ml-48">
-                <img src="/logo.png" alt="Logo" className="w-24 h-auto cursor-pointer" />
+                <img src="/logo.png" alt="Logo" className="w-24 h-auto cursor-pointer hover:brightness-110" />
             </Link>
 
             {/* Nav items always centered */}
