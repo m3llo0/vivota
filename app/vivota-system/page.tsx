@@ -49,7 +49,7 @@ export default function VivotaSystem() {
 
             {/* In a Nutshell */}
             <div className="flex justify-center">
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-8 md:gap-12">
+                <div className="flex flex-col text-white lg:flex-row justify-center items-center gap-8 md:gap-12">
                     <img src="/trophy.svg" className="w-24 md:w-32 lg:w-48 max-w-full" />
                     <div>
                         <p className="font-bold text-base md:text-lg leading-relaxed md:leading-loose">
@@ -135,7 +135,7 @@ export default function VivotaSystem() {
             </div>
 
             {/* Video Recording Section */}
-            <div className="flex justify-center">
+            <div className="flex justify-center text-white">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-24">
                     <img src="/video.svg" className="w-24 md:w-32 lg:w-40 xl:w-48 max-w-full" />
                     <div>

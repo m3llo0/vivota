@@ -6,7 +6,7 @@ const plans = [
     {
         name: "Diagnostic",
         price: "$100",
-        duration: "(1 trial session, 2 hours)",
+        duration: "(1 trial lesson, 2hrs)",
         strike: null,
         highlight: false,
         benefits: [
@@ -17,7 +17,7 @@ const plans = [
     {
         name: "Rotation",
         price: "$440",
-        duration: "(4 sessions x 2 hours)",
+        duration: "(4 lessons x 2hrs)",
         strike: "$500",
         highlight: false,
         benefits: [
@@ -29,7 +29,7 @@ const plans = [
     {
         name: "Regimen",
         price: "$1100",
-        duration: "(12 sessions x 2 hours)",
+        duration: "(12 lessons x 2hrs)",
         strike: "$1200",
         highlight: true,
         icon: "flame.svg",

@@ -66,7 +66,7 @@ export default function Footer() {
                     <address className="not-italic mb-4">
                         505B Bishan St 11, #01-422<br />
                         <a href="tel:+6512345678" className="link link-hover">
-                            +65 8827 2531
+                            +65 8035 7523
                         </a>
                     </address>
                     <p>&copy; {new Date().getFullYear()} Vivota Pte. Ltd.</p>

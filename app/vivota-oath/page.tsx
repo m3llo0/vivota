@@ -55,7 +55,7 @@ export default function VivotaOath() {
                 <span className="block sm:inline">Vivota Family.</span> 
             </h2>
 
-            <section className="space-y-24 md:space-y-28 mb-32">
+            <section className="space-y-24 md:space-y-28 mb-32 text-white">
                 {vivotaOathSections.map((section, idx) => (
                     <div
                         key={idx}
