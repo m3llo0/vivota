@@ -12,13 +12,13 @@ export default function TutorProfile() {
             "Integrated Programme (IP), Catholic High School"
         ],
         bio: `Hi! I’m Shawn, a Singaporean medical student and passionate tutor since 2022. 
-        I started tutoring to support my medical studies, but quickly realized that teaching is so much more than just grades. 
-        I love guiding each student — whether adolescent or young adult — towards discovering their strengths, building confidence,
-        and preparing for university and beyond.`,
-        at_vivota: `At Vivota, my goal isn’t just academic improvement — it’s helping students find their ikigai and 
-        fully appreciate the journey of learning. I'm also excited to share my experiences, especially in medicine and guide them 
-        fully in their educational journey even after the A Levels — so reach out to me if 
-        you’d like to join me in this once-in-a-lifetime learning experience!`,
+        With four years of tutoring experience across chemistry and biology, and having met students from 12 different JCs, I’ve 
+        seen almost every learning style and every kind of challenge. I bring that experience into each lesson, helping every student who 
+        walks through Vivota’s doors move from confusion to clarity, and from clarity to confidence.`,
+        at_vivota: `At Vivota, my aim is never rote memorisation. I guide students to grasp the ideas behind the formulas,
+         appreciate the patterns that run through the subject, 
+         and build a genuine interest that makes learning feel natural rather than forced. When 
+         students enjoy the process, their mastery grows quickly and sustainably. Chemistry becomes intuitive once you truly understand its logic. `,
         img: "shawn.png"
     }
 
