@@ -72,7 +72,7 @@ export default function HeroSection() {
                             <div className="flex items-start gap-2">
                                 <Phone className="w-4 h-4 text-white flex-shrink-0" />
                                 <p className="text-base font-medium text-white transition-colors">
-                                    8827 2531
+                                    80357523
                                 </p>
                             </div>
                         </div>
