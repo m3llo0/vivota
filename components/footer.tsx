@@ -64,8 +64,9 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row justify-between items-center px-20 py-10 text-white">
                 <div className="text-center sm:text-left text-gray-400 text-sm">
                     <address className="not-italic mb-4">
-                        505B Bishan St 11, #01-422<br />
-                        <a href="tel:+6512345678" className="link link-hover">
+                        <span className="block sm:inline">505B Bishan St 11,{" "}</span>
+                        <span>#01-422</span>
+                        <a href="tel:+6512345678" className="link link-hover block">
                             +65 8035 7523
                         </a>
                     </address>

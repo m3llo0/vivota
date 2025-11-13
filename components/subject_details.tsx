@@ -143,13 +143,13 @@ export default function SubjectDetails({ subject, keyFeatures, topics, methods }
                     </p>
                     <div className="flex gap-4 justify-center gap-8">
                         <Link href="/enrolment">
-                            <button className="px-8 py-4 bg-yellow-500 text-black text-base md:text-lg border-2 border-black rounded-lg 
+                            <button className="px-6 py-3 sm:px-8 sm:py-4 bg-yellow-500 text-black text-base md:text-lg border-2 border-black rounded-lg 
                             font-semibold hover:scale-105 transition-all whitespace-nowrap">
                                 Enrol Now
                             </button>
                         </Link>
                         <Link href="/plans-and-pricing">
-                            <button className="px-8 py-4 bg-neutral-100 text-black text-base md:text-lg rounded-lg 
+                            <button className="px-6 py-3 sm:px-8 sm:py-4 bg-neutral-100 text-black text-base md:text-lg rounded-lg 
                             font-semibold hover:scale-105 transition-all whitespace-nowrap">
                                 Learn More
                             </button>
