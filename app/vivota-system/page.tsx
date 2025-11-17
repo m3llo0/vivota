@@ -52,7 +52,7 @@ export default function VivotaSystem() {
                 <div className="flex flex-col text-white lg:flex-row justify-center items-center gap-8 md:gap-12">
                     <img src="/trophy.svg" className="w-20 md:w-30 lg:w-40 max-w-full" />
                     <div>
-                        <p className="font-bold text-base md:text-lg leading-relaxed md:leading-loose">
+                        <p className="font-bold text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose">
                             Here at Vivota, we don’t “treat” low grades by spamming more worksheets
                             or yapping non-stop. We typically run in a two-session cycle, inspired by scientifically proven techniques
                             modelled after the methods used in medical school.

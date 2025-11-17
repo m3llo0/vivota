@@ -85,7 +85,7 @@ export default function VivotaOath() {
                             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 md:mb-4">
                                 {section.title}
                             </h2>
-                            <p className="mb-3 md:mb-4 tracking-wide text-left text-sm sm:text-base md:text-base">
+                            <p className="mb-3 md:mb-4 tracking-wide text-left text-sm sm:text-base md:text-lg">
                                 {section.text}
                             </p>
                             {section.list && (
