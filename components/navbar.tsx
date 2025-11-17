@@ -10,6 +10,7 @@ const navbarItems = [
             { label: "The Vivota Oath", href: "/vivota-oath" },
             { label: "The Vivota Learning System", href: "/vivota-system" },
             { label: "Our Space", href: "/our-space" },
+            { label: "FAQs", href: "/faqs" },
         ],
     },
     {

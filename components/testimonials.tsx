@@ -72,7 +72,9 @@ export default function TestimonialCarousel() {
 
     if (error) {
         return (
-            <div></div>
+            <div className="max-w-7xl mx-auto py-32 md:py-36 lg:py-40 xl:py-42 px-8 sm:px-10 md:px-12 lg:px-14">
+                <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Our Space</h1>
+            </div>
         );
     }
 
