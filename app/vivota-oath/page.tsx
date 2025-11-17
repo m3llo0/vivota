@@ -1,43 +1,52 @@
 const vivotaOathSections = [
     {
         title: "Student First, Syllabus Second",
-        text: `Your child’s wellbeing takes utmost precedence. No late-night demands, clear 9am–9pm boundaries, and bite-sized workloads with spaced practice.`,
+        text: `Grades matter. Health matters more. We build plans that respect both parties.`,
         list: [
-            "12-hour weekday replies",
-            "Weekly check-in for each individual student",
-            "Optional monthly 1-1 consult sessions",
-            "Balanced workloads. No additional stress.",
+            "Fast replies everyday 24/7",
+            "Weekly check-ins with each student to adjust workload and stress levels",
+            "Optional 1-to-1 consults during crunch periods",
+            "Bite-sized, spaced practice instead of endless extra papers",
         ],
+        extraText: "Students work hard, sleep enough, and do not burn out for exams.",
         imgSrc: "/care.svg",
         imgAlt: "Wellbeing Icon",
     },
     {
         title: "We Teach What Matters",
-        text: `We pride ourselves on our high-yield, syllabus oriented teaching plan inspired by Aristole's "First Principles Thinking", which breaks complex concepts into simple fundamentals. Gain access to our concise one-page content summaries for every topic + worked examples designed to ensure performance even under exam pressure.`,
+        text: `No content dump, no fancy jargon. Just the parts that actually move marks.`,
+        list: [
+            "High-yield, syllabus-aligned lessons built from first principles",
+            "Clarity Packs: one-page topic summaries with worked examples for fast revision",
+            "Focus on exam craft: how to plan answers, show working, and avoid common traps",
+        ],
         extraText: "No extra fluff, just simply a proven formula.",
         imgSrc: "/gears.svg",
         imgAlt: "Blueprint Icon",
     },
     {
         title: `"Do No Harm" to Curiosity`,
-        text: `Team-Based Learning as standard. Students discuss, reason, and choose with evidence—not just guesswork.`,
+        text: `We protect curiosity while training for exam discipline.`,
         list: [
             "Small class sizes of 6-10 students",
-            "Focus on classroom discussions and critical thinking",
-            "Fully marked work within 72 hours with learning pointers",
-            "Nurturing environment for study and growth",
+            "Team-Based Learning as standard: discuss, argue, and decide with evidence",
+            "Mistakes treated as data, not shame; questions are expected, not “extra”",
         ],
+        extraText: "Students learn to think, not just copy model answers.",
         imgSrc: "/collab.svg",
         imgAlt: "Team-Based Learning Icon",
     },
     {
         title: "Transparency at our Core",
-        text: `We believe in engaging fully with parents and keeping them in the loop on their child's progress every step of the way.`,
+        text: `Parents should not have to chase for updates. 
+        We build a holistic support system where Vivota Tutors work with parents to shape what is best for each child.`,
         list: [
             "Monthly updates (Mastery, Habits, Well-being, Next 14 days)",
-            "Termly discussions with parents",
-            "Quick replies to any enquiries",
+            "Termly conversations to review goals, progress, and next steps",
+            "Quick, direct replies from the House Tutor to parent enquiries",
+            "Personalised adjustments to workload and support based on shared feedback"
         ],
+        extraText: "You always know how your child is doing, what we are focusing on next, and how we are supporting them at home and in class.",
         imgSrc: "/handshake.svg",
         imgAlt: "Parents Icon",
     },
@@ -52,7 +61,7 @@ export default function VivotaOath() {
             <h2 className="text-base sm:text-lg md:text-xl text-white text-center font-medium 
             mb-16 lg:mb-20 tracking-wide">
                 <span className="block sm:inline">Our promise to every member of the{" "}</span>
-                <span className="block sm:inline">Vivota Family.</span> 
+                <span className="block sm:inline">Vivota Family.</span>
             </h2>
 
             <section className="space-y-24 md:space-y-28 mb-32 text-white">
@@ -79,19 +88,19 @@ export default function VivotaOath() {
                             <p className="mb-3 md:mb-4 tracking-wide text-left text-sm sm:text-base md:text-base">
                                 {section.text}
                             </p>
-                            {section.extraText && (
-                                <p className="font-semibold tracking-wide text-sm sm:text-base md:text-base mb-3">
-                                    {section.extraText}
-                                </p>
-                            )}
                             {section.list && (
-                                <ul className="list-disc list-inside tracking-wide text-left text-sm sm:text-base md:text-base">
+                                <ul className="list-disc list-inside tracking-wide text-left text-sm sm:text-base md:text-base mb-6 md:mb-8 ">
                                     {section.list.map((item, i) => (
                                         <li key={i} className="mb-1">
                                             {item}
                                         </li>
                                     ))}
                                 </ul>
+                            )}
+                            {section.extraText && (
+                                <p className="font-semibold tracking-wide text-sm sm:text-base md:text-base mb-3">
+                                    {section.extraText}
+                                </p>
                             )}
                         </div>
                     </div>
