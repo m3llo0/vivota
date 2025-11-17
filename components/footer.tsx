@@ -49,13 +49,13 @@ export default function Footer() {
                         <div className="flex flex-col gap-2">
                             {item.dropdown
                                 ? item.dropdown.map((subItem) => (
-                                    <a
+                                    <Link
                                         key={subItem.label}
                                         href={subItem.href}
                                         className="text-sm opacity-70 hover:opacity-100 hover:underline transition-opacity"
                                     >
                                         {subItem.label}
-                                    </a>
+                                    </Link>
                                 ))
                                 : item.href && (
                                     <a
