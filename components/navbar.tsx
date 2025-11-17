@@ -29,6 +29,10 @@ const navbarItems = [
         label: "Class Schedule",
         href: "/class-schedule",
     },
+    {
+        label: "Contact Us",
+        href: "/contact-us",
+    }
 ];
 
 export default function Navbar() {
