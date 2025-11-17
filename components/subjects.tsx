@@ -41,7 +41,7 @@ export default function SubjectsSection() {
                                 </h3>
                                 <img src={item.pic} className="w-20 md:w-24 h-auto mb-4 md:mb-8" alt={item.title} />
                                 <Link href={item.url}>
-                                    <button className="bg-blue-500 font-bold text-white px-4 md:px-5 py-2 rounded-lg hover:bg-blue-600 transition">
+                                    <button className="bg-yellow-500 font-bold text-white px-4 md:px-5 py-2 rounded-lg hover:bg-yellow-600 transition">
                                         Learn More
                                     </button>
                                 </Link>
@@ -65,7 +65,7 @@ export default function SubjectsSection() {
                                 </h3>
                                 <img src={item.pic} className="w-20 md:w-24 h-auto mb-4 md:mb-8" alt={item.title} />
                                 <Link href={item.url}>
-                                    <button className="bg-blue-500 font-bold text-white px-4 md:px-5 py-2 rounded-lg hover:bg-blue-600 transition">
+                                    <button className="bg-yellow-500 font-bold text-white px-4 md:px-5 py-2 rounded-lg hover:bg-yellow-600 transition">
                                         Learn More
                                     </button>
                                 </Link>
