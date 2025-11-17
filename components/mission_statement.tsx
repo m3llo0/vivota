@@ -14,19 +14,21 @@ export default function MissionStatement() {
                 Vivota to diagnose learning gaps and give structured, calm support week by week through the Vivota System.
             </p>
 
-            <ul className="text-sm sm:text-base md:text-lg 2xl:text-xl my-12 px-4 sm:px-8 leading-relaxed tracking-wide list-disc list-inside space-y-4 text-center sm:text-left">
+            <ul className="text-sm sm:text-base md:text-lg 2xl:text-xl my-12 lg:my-24 px-4 sm:px-8 leading-relaxed tracking-wide list-disc list-inside space-y-4 text-center sm:text-left">
                 <li><strong>Calm over cram</strong> — personalised, steady, actionable study plans instead of last-minute panic.</li>
                 <li><strong>Small wins that compound</strong> — regular check-ins and specific targets, not just “do more papers”.</li>
                 <li><strong>Treating the student, not just the syllabus</strong> — wellbeing, habits, and workload tracked alongside marks so progress&nbsp;is&nbsp;sustainable.</li>
             </ul>
 
-            <h2 className="text-base sm:text-lg md:text-xl 2xl:text-2xl font-semibold leading-relaxed tracking-wide text-center">
-                Vivota: <span className="italic">vivo ("to live") + ta ("a place")</span>
-            </h2>
+            <div>
+                <h2 className="text-base sm:text-lg md:text-xl 2xl:text-2xl font-semibold leading-relaxed tracking-wide text-center">
+                    Vivota: <span className="italic">vivo ("to live") + ta ("a place")</span>
+                </h2>
 
-            <p className="text-sm sm:text-base md:text-lg 2xl:text-xl my-3 sm:my-5 px-4 sm:px-8 leading-relaxed tracking-wide text-center">
-                A place where learning feels alive, even while preparing for A-Levels
-            </p>
+                <p className="text-sm sm:text-base md:text-lg 2xl:text-xl my-3 sm:my-5 px-4 sm:px-8 leading-relaxed tracking-wide text-center">
+                    A place where learning feels alive, even while preparing for A-Levels
+                </p>
+            </div>
 
             <div className="text-center my-4 sm:my-6">
                 <Link href="/vivota-oath">

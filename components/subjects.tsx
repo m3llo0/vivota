@@ -12,18 +12,19 @@ export default function SubjectsSection() {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
         py-8 sm:py-16 md:py-24 lg:py-32 xl:py-40 2xl:py-48">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center mb-4 md:mb-8">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center">
                 Our JC Courses
             </h1>
-            <h2 className="text-sm sm:text-base md:text-lg 2xl:text-xl text-white text-center tracking-wide mb-4 md:mb-8">
-                <span className="block lg:inline">Vivota specialises in delivering quality education{" "}</span>
-                <span className="block lg:inline">tailored for Junior College students.</span>
-            </h2>
-            <h2 className="text-sm sm:text-base md:text-lg 2xl:text-xl text-white text-center mb-8 md:mb-12 tracking-wide">
-                <span className="block md:inline">Explore the 5 subjects taught in-depth{" "}</span>
-                <span className="block md:inline">by our Content Experts!</span>
-            </h2>
-
+            <div className="py-8 lg:py-12">
+                <h2 className="text-sm sm:text-base md:text-lg 2xl:text-xl text-white text-center tracking-wide mb-4 lg:mb-8">
+                    <span className="block lg:inline">Vivota specialises in delivering quality education{" "}</span>
+                    <span className="block lg:inline">tailored for Junior College students.</span>
+                </h2>
+                <h2 className="text-sm sm:text-base md:text-lg 2xl:text-xl text-white text-center tracking-wide">
+                    <span className="block md:inline">Explore the 5 subjects taught in-depth{" "}</span>
+                    <span className="block md:inline">by our Content Experts!</span>
+                </h2>
+            </div>
             <div className="flex flex-col items-center max-w-xl lg:max-w-5xl lg:px-8 mx-auto w-full">
                 {/* --- Row 1: First 3 cards --- */}
                 <div className="flex flex-col items-center gap-6 md:w-full lg:grid lg:grid-cols-3">
