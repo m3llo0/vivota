@@ -93,6 +93,21 @@ export default function DesktopNavbar({ navbarItems }: Props) {
                     );
                 })}
             </div>
+
+            {/* Social media icons on the right */}
+            <div className="ml-auto flex items-center gap-4 flex-shrink-0 lg:mr-4 xl:mr-32 2xl:mr-48">
+                {/* Social media icons */}
+                <a href="https://wa.me/6580357523" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Whatsapp">
+                    <img src="/whatsappDark.svg" className="w-4 sm:w-6" />
+                </a>
+                <a href="https://www.instagram.com/vivota.education" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                    <img src="/instagramDark.svg" className="w-4 sm:w-6" />
+                </a>
+                <a className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                    <img src="/tiktokDark.svg" className="w-4 sm:w-6" />
+                </a>
+            </div>
+
         </div>
     );
 }

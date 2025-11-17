@@ -112,6 +112,21 @@ export default function MobileNavbar({ navbarItems }: Props) {
                         );
                     })}
                 </ul>
+
+                {/* Social icons at bottom of mobile menu */}
+                <div className="flex justify-center gap-6 py-4 border-t border-gray-200">
+                    {/* Social media icons */}
+                    <a href="https://wa.me/6580357523" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Whatsapp">
+                        <img src="/whatsappDark.svg" className="w-5" />
+                    </a>
+                    <a href="https://www.instagram.com/vivota.education" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                        <img src="/instagramDark.svg" className="w-5" />
+                    </a>
+                    <a className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                        <img src="/tiktokDark.svg" className="w-5" />
+                    </a>
+                </div>
+
             </div>
         </div>
     );
