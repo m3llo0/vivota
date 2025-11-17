@@ -6,7 +6,8 @@ export default function TutorProfile() {
         name: "Kaiser Tan",
         subjects: "Biology (Lead CE) & Chemistry",
         highlights: [
-            "NUS Yong Loo Lin School of Medicine",
+            "Singapore Medical Student",
+            "Tutored 30+ students privately since 2023",
             "SAF Young Leaders Award",
             "Straight As for Bio, Chem and Math",
             "Dean’s List, Eunoia Junior College",
@@ -22,7 +23,7 @@ export default function TutorProfile() {
         and the underlying logic behind systems. My goal is not only to help students improve their grades, but also to nurture curiosity, 
         resilience, and an appreciation for how the living world functions. I believe every student is capable of excellence, 
         and look forward to bringing out the best in your child!`,
-        
+
         img: "kaiser.png"
     }
 

@@ -6,6 +6,8 @@ export default function TutorProfile() {
         name: "Jaryl Lee",
         subjects: "Math (Lead CE) & Physics",
         highlights: [
+            "Singapore Medical Student",
+            "Tutored 40+ students privately since 2023",
             "90RP AAAA/AA score, PCME for GCE A Levels",
             "H3 Math & Raffles Academy (Mathematics)",
             "Raffles All-Round Excellence Award",

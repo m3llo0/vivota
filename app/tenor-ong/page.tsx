@@ -6,10 +6,12 @@ export default function TutorProfile() {
         name: "Tenor Ong",
         subjects: "Physics & General Paper (Dual Lead CE)",
         highlights: [
-            "OCBC Scholarship (Medicine)",
+            "Singapore Medical Student with OCBC Scholarship",
+            "Tutored 40+ students privately since 2023",
             "Offered Direct Bachelor + Masters Programme with full scholarship",
             "90RP AAAA/AA score, PCME for GCE A Levels",
             "H3 Physics, Eunoia Junior College",
+            "3 Years of Debate Experience",
             "Dean’s List, Eunoia Junior College",
             "Integrated Programme (IP), Catholic High School"
         ],

@@ -6,6 +6,8 @@ export default function TutorProfile() {
         name: "Shawn Lim",
         subjects: "Chemistry (Lead CE) & Biology",
         highlights: [
+            "Singapore Medical Student",
+            "Tutored 50+ students privately since 2022",
             "90RP AAAA/AA score, BCMH for GCE A Levels",
             "Offered Double Degree & Scholarship by SMU",
             "Dean’s List, Eunoia Junior College",
