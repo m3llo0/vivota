@@ -142,7 +142,7 @@ export default function SubjectDetails({ subject, keyFeatures, topics, methods }
                         Join Vivota and {subject.cta}
                     </p>
                     <div className="flex gap-4 justify-center gap-8">
-                        <Link href="/enrolment">
+                        <Link href="/contact-us">
                             <button className="px-6 py-3 sm:px-8 sm:py-4 bg-yellow-500 text-black text-base md:text-lg border-2 border-black rounded-lg 
                             font-semibold hover:scale-105 transition-all whitespace-nowrap">
                                 Enrol Now

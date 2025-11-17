@@ -79,7 +79,7 @@ export default function HeroSection() {
 
                         {/* CTA Button */}
                         <div className="pt-4">
-                            <Link href="/enrolment">
+                            <Link href="/contact-us">
                                 <button
                                     className="px-8 py-3 text-base font-semibold bg-gradient-to-r from-amber-400 to-yellow-500 
                                     text-black rounded-full shadow-lg transition-all 
