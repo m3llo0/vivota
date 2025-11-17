@@ -97,7 +97,7 @@ export default function SchedulePage() {
             </div>
 
             <div className="flex justify-center pt-24">
-                <Link href="/enrolment">
+                <Link href="/contact-us">
                     <button
                         className="px-8 sm:px-12 md:px-18 lg:px-24 py-4 text-base sm:text-lg font-semibold bg-white 
                         text-black rounded-full shadow-lg transition-all 
