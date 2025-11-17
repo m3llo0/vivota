@@ -1,0 +1,153 @@
+[
+  {
+    "student": "Yun",
+    "school": "RVHS",
+    "tutor": "Shawn",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Shawn is a helpful and dedicated tutor. He always provides quick answers and guides me to the relevant part in the notes despite his busy schedule. The compiled materials he provided have been really helpful in strengthening the areas I’m weaker in, like applying the textbook knowledge to organic chemistry questions. He has helped me understand the subject on a deeper level and made chemistry less daunting. Thank you for helping me improve from S in mid years to B for JC2 Prelim!",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Alden",
+    "school": "RI",
+    "tutor": "Shawn",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Shawn is the GOAT. He is able to explain concepts from both macro and micro perspectives, drawing connections across various topics. I find his approach to chemistry easy to follow, logical and intuitive. He always responds to my questions in a timely manner and is happy to delve into higher order questions with me. I appreciate him for all that he has done for me — I couldn’t have scored A in my Y6 Chemistry Prelims without him.",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "C.Z.",
+    "school": "HCI",
+    "tutor": "Shawn",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Shawn is the most dedicated and passionate teacher who has guided me to an A from a C in just one month, something which I've never expected. I used to see chemistry as a chore but Shawn’s lessons completely changes that. He’s inspiring, engaging and funny and he made my enjoy chem so much that it became my best and favorite subject and i genuinely looked forward to every lesson i have with him 😆. He's also always quick to answer questions, almost instantly most of the time and he even stays late until 2am to help when I’m struggling or stressed. I'm really thankful for everything he’s done for me, and I honestly can’t picture any other teacher like him. Shawn’s definitely the best chem tcher i can ask for and the true chem goat 🐐",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Joshua",
+    "school": "ASRJC",
+    "tutor": "Shawn",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Shawn is a helpful and dedicated tutor. He always replies to my queries within 5min-1h despite his busy schedule. He is precise in his teaching, taking a patient and organised approach when going through every topic with me. He taught me how to connect concepts across topics and helped me to understand organic chemistry in an elegant manner that no one else has taught me before. I would like to thank Shawn for helping me improve from E to B for internal exams! His considerate tutorage has helped me massively and I would recommend him to all JC Chemistry students.",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Clara",
+    "school": "HCI",
+    "tutor": "Tenor",
+    "subjects": [
+      "H2 Physics",
+      "H1 General Paper"
+    ],
+    "testimonial": "Tenor is one of the most approachable and supportive teachers i’ve ever had. He makes every lesson enjoyable and always treats us like friends. I can always learn a lot from his physics lessons as his teaching style is very effective and his explanations are super clear. He incorporates clear physics frameworks and teaches us simple ways of thinking that make difficult concepts easy to understand. His gp lessons are also very helpful as my results improved by 2 grades in just 2 lessons. I’ve improved a lot under his guidance and I believe that he is genuinely committed to helping students grow!",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Joshua",
+    "school": "ASRJC",
+    "tutor": "Tenor",
+    "subjects": [
+      "H2 Physics",
+      "H1 General Paper"
+    ],
+    "testimonial": "Tenor is a great tutor who replies to me within 5 min of me asking questions despite his busy schedule. He has helped me to improve my physics tremendously by explaining concepts in an easy and step by step way. He is also very flexible in which we can arrange tuition anytime and anywhere. My physics grades used to be quite weak, usually scoring around a D or E, but Tenor has helped me a lot and with his guidance, I’m confident I can score an A or B for the recent A-Levels. I recommend him as your tutor if you want good physics grades.",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Ayush",
+    "school": "YIJC",
+    "tutor": "Tenor",
+    "subjects": [
+      "H2 Physics",
+      "H1 General Paper"
+    ],
+    "testimonial": "Tenor is an energetic tutor who makes lessons very engaging with personalized methods of teaching, excellent quality notes and a thorough explanation on topics. After taking on physics tuition with him, my grades improved from a C in WAs at the start of J2 to an A for prelims. Additionally, Tenor was able to strengthen my foundation in GP. As a student who always struggled badly in GP, Tenor helped my grades jump from a fail to a C in just two lessons. His teaching style and self-made notes really deepened my understanding of how to approach both essays and AQ. Tenor always comes on time or even early for lessons, and even gives quick replies when I have doubts outside lesson hours. Thank you for helping me in my JC journey with physics and GP!!",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Aarush",
+    "school": "YIJC",
+    "tutor": "Tenor",
+    "subjects": [
+      "H2 Physics",
+      "H1 General Paper"
+    ],
+    "testimonial": "Tenor is extremely patient and is very knowledgeable, and he is able to break down difficult physics topics and make them easy to understand. His notes and explanations are very concise, allowing me to understand concepts better. Within just a few lessons, I managed to get a B in GP after getting U’s consistently. Thank you for your patience and guidance!",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Yun",
+    "school": "RVHS",
+    "tutor": "Tenor",
+    "subjects": [
+      "H2 Physics"
+    ],
+    "testimonial": "Tenor is a helpful and dedicated tutor. He always replies to my queries within 5min-1h despite his busy schedule. He helped me to understand the subject on a deeper level and guided me to understand more difficult concepts in topics like superposition and quantum physics. Thank you for helping me improve from D in physics to B for JC2 Prelims in just a few months!",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Zhi Yi",
+    "school": "Private",
+    "tutor": "Jaryl",
+    "subjects": [
+      "H2 Mathematics",
+      "H2 Chemistry"
+    ],
+    "testimonial": "I started tuition with Jaryl in June as a private candidate after performing extremely poorly in my first A-Level attempt. Previously, I relied heavily on memorising concepts and model answers, and I struggled with genuine content understanding. After joining Jaryl’s lessons, he transformed the way I approached the subject. He made content far easier to grasp by teaching me to understand concepts instead of memorising them, and he equipped me with many effective tips and strategies to tackle challenging questions. His guidance greatly boosted my confidence and it clearly showed in my second attempt at the A-Levels. I only wish I had started tuition with Jaryl much earlier, because he helped me improve more in half a year than I did in my entire two years in JC."
+  },
+  {
+    "student": "Shanika",
+    "school": "TMJC",
+    "tutor": "Jaryl",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Jaryl has been really patient with me throughout the year, using mindmaps to give me a good overview of each topic before explaining them in depth later on, and giving me clear notes and annotations to guide my revision for exams. He also helped me change the way I think about chemistry as a subject, making me realise that it is experimental in nature, which enabled me to be more fluid in my application of concepts in questions. With his help, I managed to go from an E in WA1 to an A in JC1 Promos!"
+  },
+  {
+    "student": "Anonymous",
+    "school": "Private",
+    "tutor": "Jaryl",
+    "subjects": [
+      "H2 Mathematics"
+    ],
+    "testimonial": "Besides simply breaking down mathematical concepts for easier learning, Jaryl dissects each topic in a non-linear fashion, enabling me to gain a broader perspective of the subject and a deeper understanding of how various concepts or ideas are related to each other. Through this approach, I am able to identify similarities across different topics, which not only reinforces my learning in Mathematics, but also helps me apply his methods to studying other subjects, deepening my overall interest in learning."
+  },
+  {
+    "student": "Chen Peng",
+    "school": "Private Candidate",
+    "tutor": "Kaiser",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "As a private candidate and a slow learner, taking A levels again after not doing well the first time was an extremely daunting task. Having to learn everything again from scratch without the school’s support and having to practice worksheets on my own really affected my morale, making it extremely difficult for me to find the motivation to study. However, the way Kaiser taught chemistry made it engaging and the step-by-step feedback that he provided made chemistry fun and less of a chore. Despite not having the support of a school, Kaiser provided a structured curriculum that focused on my weaker topics and reinforced the stronger topics. Throughout my time with Kaiser, he constantly pushed me and sent me reminders during the week, which kept me on track and renewed my motivation. Thanks to his dedication, as I sat for my A levels this year, I felt even more confident than I did previously with the school.",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Ong",
+    "school": "CJC",
+    "tutor": "Kaiser",
+    "subjects": [
+      "H2 Biology"
+    ],
+    "testimonial": "Throughout my time in JC, I felt confused and overwhelmed by the number of terms and processes in biology. As H2 Biology consisted of many microscopic molecules with complex names and functions, I found it very difficult to even piece together the processes and resorted to rote memorisation and regurgitation, which led to me struggling and eventually dreading biology as a subject. After starting tuition with Kaiser, he broke down different questions using systematic methods, which segmented the core parts of the question into topics, which made it much easier for me to get the key words and marks. Other than that, Kaiser is able to simplify biology and helped me to visualise processes as a car and the molecules as parts of a car using various mnemonics and visualisation tricks, which greatly helped me. His system works for me, as only a month after starting with Kaiser, I improved 2 grades from a D to a B."
+  },
+  {
+    "student": "KY",
+    "school": "EJC",
+    "tutor": "Kaiser",
+    "subjects": [
+      "H2 Chemistry",
+      "H1 Biology"
+    ],
+    "testimonial": "Before joining Kaiser’s classes, I was completely distraught after scoring an S for both Biology and Chemistry in my mid-year exams. I felt lost, discouraged, and honestly unsure if I could ever catch up. But from the very first lesson, Kaiser changed everything. His clear explanations, structured notes, and constant encouragement helped me rebuild my confidence step by step. He never made me feel ashamed of my mistake. Instead, he used them to help me understand better. With his guidance, I not only improved, I soared. I’m proud to say that I went improved 3 grades in just a few months in both Bio and Chem. I would highly recommend Kaiser as a biology and chem student if you want a patient, caring and amazing tutor."
+  }
+]
