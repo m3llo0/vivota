@@ -51,7 +51,7 @@ export default function EnrollmentPage() {
                     href={whatsappLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block bg-black border border-white text-white text-center
+                    className="block bg-black border border-yellow-500 text-white text-center
                         py-4 px-6 rounded-lg font-semibold text-lg transition-all transform hover:scale-102 shadow-lg"
                 >
                     <div className="flex items-center justify-center">
