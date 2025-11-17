@@ -112,7 +112,7 @@ export default function PlansPricing() {
                                 </ul>
 
                                 <div className="mt-auto pt-6">
-                                    <Link href="/enrolment">
+                                    <Link href="/contact-us">
                                         <button className="btn btn-warning btn-block">
                                             Enrol Now
                                         </button>
