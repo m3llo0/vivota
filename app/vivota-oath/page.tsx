@@ -28,7 +28,7 @@ const vivotaOathSections = [
         title: `"Do No Harm" to Curiosity`,
         text: `We protect curiosity while training for exam discipline.`,
         list: [
-            "Small class sizes of 6-10 students",
+            "Small class sizes",
             "Team-Based Learning as standard: discuss, argue, and decide with evidence",
             "Mistakes treated as data, not shame; questions are expected, not “extra”",
         ],
@@ -60,8 +60,8 @@ export default function VivotaOath() {
             </h1>
             <h2 className="text-base sm:text-lg md:text-xl text-white text-center font-medium 
             mb-16 lg:mb-20 tracking-wide">
-                <span className="block sm:inline">Our promise to every member of the{" "}</span>
-                <span className="block sm:inline">Vivota Family.</span>
+                <span className="block sm:inline">Our promise to every student at{" "}</span>
+                <span className="block sm:inline">Vivota Education.</span>
             </h2>
 
             <section className="space-y-24 md:space-y-28 mb-32 text-white">
