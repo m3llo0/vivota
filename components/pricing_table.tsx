@@ -14,13 +14,13 @@ export default function PricingTable() {
       emoji: null,
       color: "text-orange-400",
       pricing: [
-        { original: null, discounted: "$375"},
-        { original: "$750", discounted: "$700"},
-        { original: "$1125", discounted: "$1000"},
-        { original: "$1500", discounted: "$1300"}
+        { original: "$375", discounted: "$187.50"},
+        { original: "$700", discounted: "$350"},
+        { original: "$1000", discounted: "$500"},
+        { original: "$1300", discounted: "$650"}
       ],
       description: "4 lessons x 2h",
-      promo:"Grand Opening Promo"
+      promo:"Grand Opening Promo 50% off"
     },
   ];
 
