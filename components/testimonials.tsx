@@ -87,6 +87,8 @@ export default function TestimonialCarousel() {
         );
     }
 
+    const isMobile = windowWidth < 768; // mobile < 768px
+
     return (
         <div className="w-full min-h-screen py-12 px-4">
             <div className="max-w-7xl mx-auto">
@@ -99,6 +101,7 @@ export default function TestimonialCarousel() {
                 {/* Carousel Container */}
                 <div className="relative">
                     {/* Navigation Buttons */}
+                    {!(isMobile && currentIndex === 0) && (
                     <button
                         onClick={goToPrevious}
                         className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50"
@@ -106,7 +109,9 @@ export default function TestimonialCarousel() {
                     >
                         <ChevronLeft className="w-6 h-6 text-gray-700" />
                     </button>
+                    )}
 
+                    {!(isMobile && currentIndex === maxIndex) && (
                     <button
                         onClick={goToNext}
                         className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50"
@@ -114,6 +119,8 @@ export default function TestimonialCarousel() {
                     >
                         <ChevronRight className="w-6 h-6 text-gray-700" />
                     </button>
+                    )}
+
 
                     {/* Carousel Track */}
                     <div className="overflow-hidden">
