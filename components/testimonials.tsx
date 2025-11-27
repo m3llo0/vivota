@@ -62,12 +62,21 @@ export default function TestimonialCarousel() {
     const currentItemsPerView = getCurrentItemsPerView();
     const maxIndex = Math.max(0, testimonials.length - currentItemsPerView);
     const totalPages = Math.ceil(testimonials.length / currentItemsPerView);
+
     const goToPrevious = () => {
-        setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
+        setCurrentIndex(prev => {
+            const newIndex = prev - currentItemsPerView;
+            if (newIndex < 0) return maxIndex;     // wrap to last page
+            return newIndex;
+        });
     };
 
     const goToNext = () => {
-        setCurrentIndex((prevIndex) => Math.min(maxIndex, prevIndex + 1));
+        setCurrentIndex(prev => {
+            const newIndex = prev + currentItemsPerView;
+            if (newIndex > maxIndex) return 0;     // wrap to first page
+            return newIndex;
+        });
     };
 
     if (error) {
@@ -92,8 +101,7 @@ export default function TestimonialCarousel() {
                     {/* Navigation Buttons */}
                     <button
                         onClick={goToPrevious}
-                        disabled={currentIndex === 0}
-                        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50"
                         aria-label="Previous testimonial"
                     >
                         <ChevronLeft className="w-6 h-6 text-gray-700" />
@@ -101,8 +109,7 @@ export default function TestimonialCarousel() {
 
                     <button
                         onClick={goToNext}
-                        disabled={currentIndex >= maxIndex}
-                        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50"
                         aria-label="Next testimonial"
                     >
                         <ChevronRight className="w-6 h-6 text-gray-700" />
@@ -165,17 +172,15 @@ export default function TestimonialCarousel() {
                         </div>
                     </div>
 
-                    {/* Dots Indicator */}
                     <div className="flex justify-center gap-2 mt-8">
-                        {Array.from({ length: totalPages }).map((_, index) => (
+                        {Array.from({ length: totalPages }).map((_, pageIndex) => (
                             <button
-                                key={index}
-                                onClick={() => setCurrentIndex(index)}
-                                className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
-                                    ? 'bg-yellow-600 w-8'
-                                    : 'bg-gray-300 hover:bg-gray-400'
+                                key={pageIndex}
+                                onClick={() => setCurrentIndex(pageIndex * currentItemsPerView)}
+                                className={`w-2 h-2 rounded-full transition-all ${pageIndex === Math.floor(currentIndex / currentItemsPerView)
+                                        ? 'bg-yellow-600 w-8'
+                                        : 'bg-gray-300 hover:bg-gray-400'
                                     }`}
-                                aria-label={`Go to testimonial ${index + 1}`}
                             />
                         ))}
                     </div>
