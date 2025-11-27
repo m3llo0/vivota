@@ -141,6 +141,16 @@
     "grade": "2025 A Level Grade TBC"
   },
   {
+    "student": "Clara",
+    "school": "HCI",
+    "tutor": "Shawn",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Shawn is a very encouraging and approachable teacher who treats us like friends. I find his lessons very effective as he uses analogies to help us understand and remember chemistry concepts. He always checks that we truly understand and is patient when we need help. I believe that he genuinely cares about his students' progress and consistently puts in the effort to help us improve. His lesons have helped me to understand the subject on a deeper level and develop a love for chemistry.",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
     "student": "Yun",
     "school": "RVHS",
     "tutor": "Tenor",
@@ -148,6 +158,16 @@
       "H2 Physics"
     ],
     "testimonial": "Tenor is a helpful and dedicated tutor. He always replies to my queries within 5min-1h despite his busy schedule. He helped me to understand the subject on a deeper level and guided me to understand more difficult concepts in topics like superposition and quantum physics. Thank you for helping me improve from D in physics to B for JC2 Prelims in just a few months!",
+    "grade": "2025 A Level Grade TBC"
+  },
+  {
+    "student": "Nirranjan",
+    "school": "RI",
+    "tutor": "Shawn",
+    "subjects": [
+      "H2 Chemistry"
+    ],
+    "testimonial": "Shawn is extremely knowledgeable and dedicated! He helped me gain extreme interest in chemistry through his fun, yet effective way of teaching, and with his help I was able to improve greatly, jumping from S in Y5 Promos to A in Y6 Prelims. Thanks so much for your guidance, Shawn!",
     "grade": "2025 A Level Grade TBC"
   }
 ]
