@@ -122,7 +122,7 @@ export default function MobileNavbar({ navbarItems }: Props) {
                     <a href="https://www.instagram.com/vivota.education" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
                         <img src="/instagramDark.svg" className="w-5" />
                     </a>
-                    <a className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                    <a href="https://www.tiktok.com/@vivota.education" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
                         <img src="/tiktokDark.svg" className="w-5" />
                     </a>
                 </div>

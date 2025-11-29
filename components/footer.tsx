@@ -94,7 +94,7 @@ export default function Footer() {
                     <a href="https://www.instagram.com/vivota.education" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
                         <img src="/instagram.svg" className="w-4 sm:w-6" />
                     </a>
-                    <a className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                    <a href="https://www.tiktok.com/@vivota.education" className="opacity-70 hover:opacity-100 transition-opacity" aria-label="Instagram">
                         <img src="/tiktok.svg" className="w-4 sm:w-6" />
                     </a>
                 </div>
