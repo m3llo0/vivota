@@ -24,7 +24,6 @@ export const metadata: Metadata = {
       { rel: 'icon', url: '/favicons/web-app-manifest-512x512.png', sizes: '512x512' },
     ],
   },
-  manifest: '/favicons/manifest.json',
 };
 
 export default function RootLayout({
@@ -34,9 +33,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      </head>
       <body
         className={`${cabin.variable} antialiased `}
       >
